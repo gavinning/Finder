@@ -1,0 +1,26 @@
+{
+  "name": "finder",
+  "version": "0.0.1",
+  "description": "Finder",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/Finder.git"
+  },
+  "keywords": [
+    "Finder"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/Finder/issues"
+  },
+  "homepage": "https://github.com/gavinning/Finder#readme",
+  "dependencies": {
+    "jsdom": "^9.8.3",
+    "request": "^2.78.0"
+  }
+}

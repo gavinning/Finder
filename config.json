@@ -1,0 +1,26 @@
+{
+    "url": "http://www.cnbeta.com/articles/556761.htm",
+    "parent": ".article .body",
+    "target": [
+        {
+            "type": "title",
+            "selector": "#news_title"
+        },
+        {
+            "type": "date",
+            "selector": ".date"
+        },
+        {
+            "type": "source",
+            "selector": ".where"
+        }
+    ],
+    "content": {
+        "selector": ".content",
+        "p": "p",
+        "filter": [
+            "p:last-child",
+            "p:last-child"
+        ]
+    }
+}
